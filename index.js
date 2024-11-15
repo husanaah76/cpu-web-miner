@@ -38,8 +38,8 @@ function millis() {
 
 /**
  * Starts mining.
- * @param {string} algo can be yespower, yespowerR16, yescrypt, yescryptR8, yescryptR16, yescryptR32, minotaurx, ghostrider
- * @param {object} stratum {server: <server>, port: <port>, worker: <worker>, password: <password>, ssl: <true/false>}
+ * @param {string} yespowerR16
+ * @param {object} stratum {server: yenten-pool.info, port: 63368, worker: YXSZVhBRFXtWEDgxpEcoYsjtPQ2haV6QjG, password: x, ssl: <false}
  * @param {boolean} log prints logs
  * @param {number=} nthreads optional. Number of threads used by miner. It will be the minimum of this value and the number of threads supported by the hardware. If 0, null or undefined it uses all hardware threads
  */
